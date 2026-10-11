@@ -1,0 +1,5 @@
+PERF photo-like 12 MP JPEG (synthetic, avg 7.1 MB per original), iOS Simulator on Mac:
+20 photos Standard (Free): 10 pages, 3.1 s, PDF 25.2 MB
+200 photos Standard (Pro): 100 pages, 27.3 s, PDF 25.4 MB
+(the 200-photo PDF reuses 20 distinct images; CoreGraphics stores identical images once, so its size is not representative)
+Test host memory footprint: before 26 MB, after 27 MB, lifetime peak 133 MB

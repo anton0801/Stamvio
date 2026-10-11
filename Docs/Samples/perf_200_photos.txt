@@ -1,0 +1,2 @@
+PERF 200 photos: 101 pages, 6.5 s, 0.3 MB
+PERF 200 photos compact: 4.9 s, 0.3 MB

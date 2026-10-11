@@ -1,0 +1,7 @@
+Long captions for manual tests (A12). Paste into photo captions (limit 500 characters).
+
+DE: Gründliche Endreinigung der Küche einschließlich Arbeitsplatten, Spülmaschinenverkleidung, Dunstabzugshaube und aller Schranktüren innen und außen; Entkalkung der Armaturen und Reinigung der Fliesenfugen mit einem umweltfreundlichen Spezialreiniger.
+
+FR: Nettoyage complet de la salle de bain : détartrage de la robinetterie et de la paroi de douche, désinfection des sanitaires, nettoyage des joints de carrelage et des miroirs, dépoussiérage des luminaires et lavage du sol avec un produit écologique adapté.
+
+RU: Генеральная уборка кухни: мытьё фасадов и столешниц, очистка вытяжки и духового шкафа, удаление известкового налёта со смесителей, мытьё плитки и швов, протирка светильников и подоконников, влажная уборка пола экологичным средством.

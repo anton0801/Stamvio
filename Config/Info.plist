@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WPAppEnvironment</key>
+	<string>$(WP_APP_ENVIRONMENT)</string>
+	<key>WPAppStoreID</key>
+	<string>$(WP_APP_STORE_ID)</string>
+	<key>WPPrivacyPolicyURL</key>
+	<string>$(WP_PRIVACY_POLICY_URL)</string>
+	<key>WPSupportEmail</key>
+	<string>$(WP_SUPPORT_EMAIL)</string>
+	<key>WPSupportFormURL</key>
+	<string>$(WP_SUPPORT_FORM_URL)</string>
+	<key>WPTermsURL</key>
+	<string>$(WP_TERMS_URL)</string>
+</dict>
+</plist>

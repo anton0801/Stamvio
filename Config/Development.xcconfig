@@ -1,0 +1,6 @@
+// Development.xcconfig — Debug configuration.
+// StoreKit testing uses TimestampCameraWorkPhotosTests/StoreKit/Products.storekit
+// through the shared scheme (Run action) and the unit tests only.
+#include "Shared.xcconfig"
+
+WP_APP_ENVIRONMENT = development

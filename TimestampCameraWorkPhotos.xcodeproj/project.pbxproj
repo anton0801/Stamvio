@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6272DC30770FA300B5AFE0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6272DB30770FA300B5AFE0 /* StoreKit.framework */; };
+		8F6272E13077100000B5AFE0 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6272E03077100000B5AFE0 /* ZIPFoundation */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F6272E83077100000B5AFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6272B93077093F00B5AFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6272C03077093F00B5AFE0;
+			remoteInfo = TimestampCameraWorkPhotos;
+		};
+		8F6273003077100000B5AFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6272B93077093F00B5AFE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6272C03077093F00B5AFE0;
+			remoteInfo = TimestampCameraWorkPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F6272C13077093F00B5AFE0 /* TimestampCameraWorkPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimestampCameraWorkPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6272DB30770FA300B5AFE0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F6272E23077100000B5AFE0 /* TimestampCameraWorkPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimestampCameraWorkPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6272F03077100000B5AFE0 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		8F6272F13077100000B5AFE0 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		8F6272F23077100000B5AFE0 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		8F6272F33077100000B5AFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6272FA3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimestampCameraWorkPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8F6272C33077093F00B5AFE0 /* TimestampCameraWorkPhotos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimestampCameraWorkPhotos;
+			sourceTree = "<group>";
+		};
+		8F6272E33077100000B5AFE0 /* TimestampCameraWorkPhotosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimestampCameraWorkPhotosTests;
+			sourceTree = "<group>";
+		};
+		8F6272FB3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimestampCameraWorkPhotosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6272BE3077093F00B5AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6272E13077100000B5AFE0 /* ZIPFoundation in Frameworks */,
+				8F6272DC30770FA300B5AFE0 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272E53077100000B5AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272FC3077100000B5AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6272B83077093F00B5AFE0 = {
+			isa = PBXGroup;
+			children = (
+				8F6272C33077093F00B5AFE0 /* TimestampCameraWorkPhotos */,
+				8F6272E33077100000B5AFE0 /* TimestampCameraWorkPhotosTests */,
+				8F6272FB3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests */,
+				8F6272F43077100000B5AFE0 /* Config */,
+				8F6272DA30770FA300B5AFE0 /* Frameworks */,
+				8F6272C23077093F00B5AFE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6272C23077093F00B5AFE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6272C13077093F00B5AFE0 /* TimestampCameraWorkPhotos.app */,
+				8F6272E23077100000B5AFE0 /* TimestampCameraWorkPhotosTests.xctest */,
+				8F6272FA3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6272DA30770FA300B5AFE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6272DB30770FA300B5AFE0 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F6272F43077100000B5AFE0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8F6272F03077100000B5AFE0 /* Shared.xcconfig */,
+				8F6272F13077100000B5AFE0 /* Development.xcconfig */,
+				8F6272F23077100000B5AFE0 /* Production.xcconfig */,
+				8F6272F33077100000B5AFE0 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6272C03077093F00B5AFE0 /* TimestampCameraWorkPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6272CD3077094200B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotos" */;
+			buildPhases = (
+				8F6272F53077100000B5AFE0 /* Release configuration check */,
+				8F6272BD3077093F00B5AFE0 /* Sources */,
+				8F6272BE3077093F00B5AFE0 /* Frameworks */,
+				8F6272BF3077093F00B5AFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8F6272C33077093F00B5AFE0 /* TimestampCameraWorkPhotos */,
+			);
+			name = TimestampCameraWorkPhotos;
+			packageProductDependencies = (
+				8F6272E03077100000B5AFE0 /* ZIPFoundation */,
+			);
+			productName = TimestampCameraWorkPhotos;
+			productReference = 8F6272C13077093F00B5AFE0 /* TimestampCameraWorkPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F6272E43077100000B5AFE0 /* TimestampCameraWorkPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6272EB3077100000B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotosTests" */;
+			buildPhases = (
+				8F6272E63077100000B5AFE0 /* Sources */,
+				8F6272E53077100000B5AFE0 /* Frameworks */,
+				8F6272E73077100000B5AFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6272E93077100000B5AFE0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8F6272E33077100000B5AFE0 /* TimestampCameraWorkPhotosTests */,
+			);
+			name = TimestampCameraWorkPhotosTests;
+			packageProductDependencies = (
+			);
+			productName = TimestampCameraWorkPhotosTests;
+			productReference = 8F6272E23077100000B5AFE0 /* TimestampCameraWorkPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F6272FF3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6273043077100000B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotosUITests" */;
+			buildPhases = (
+				8F6272FD3077100000B5AFE0 /* Sources */,
+				8F6272FC3077100000B5AFE0 /* Frameworks */,
+				8F6272FE3077100000B5AFE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6273013077100000B5AFE0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8F6272FB3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests */,
+			);
+			name = TimestampCameraWorkPhotosUITests;
+			packageProductDependencies = (
+			);
+			productName = TimestampCameraWorkPhotosUITests;
+			productReference = 8F6272FA3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6272B93077093F00B5AFE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8F6272C03077093F00B5AFE0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8F6272E43077100000B5AFE0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8F6272C03077093F00B5AFE0;
+					};
+					8F6272FF3077100000B5AFE0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8F6272C03077093F00B5AFE0;
+					};
+				};
+			};
+			buildConfigurationList = 8F6272BC3077093F00B5AFE0 /* Build configuration list for PBXProject "TimestampCameraWorkPhotos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ru,
+				de,
+				fr,
+			);
+			mainGroup = 8F6272B83077093F00B5AFE0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8F6272DF3077100000B5AFE0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8F6272C23077093F00B5AFE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6272C03077093F00B5AFE0 /* TimestampCameraWorkPhotos */,
+				8F6272E43077100000B5AFE0 /* TimestampCameraWorkPhotosTests */,
+				8F6272FF3077100000B5AFE0 /* TimestampCameraWorkPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6272BF3077093F00B5AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272E73077100000B5AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272FE3077100000B5AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F6272F53077100000B5AFE0 /* Release configuration check */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Release configuration check";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Fails Release (Production) builds while required support contacts and\n# documents are not configured in Config/Shared.xcconfig.\n# Debug (Development) builds only print a warning.\nmissing=\"\"\n[ -z \"${WP_SUPPORT_EMAIL}\" ] && missing=\"${missing} WP_SUPPORT_EMAIL\"\n[ -z \"${WP_PRIVACY_POLICY_URL}\" ] && missing=\"${missing} WP_PRIVACY_POLICY_URL\"\n[ -z \"${WP_TERMS_URL}\" ] && missing=\"${missing} WP_TERMS_URL\"\nplaceholder=\"\"\nfor value in \"${WP_SUPPORT_EMAIL}\" \"${WP_PRIVACY_POLICY_URL}\" \"${WP_TERMS_URL}\" \"${WP_SUPPORT_FORM_URL}\"; do\n  case \"${value}\" in\n    *example.com*|*example.org*|*example.net*|*placeholder*|*TODO*) placeholder=\"${placeholder} ${value}\" ;;\n  esac\ndone\ncase \"${WP_PRIVACY_POLICY_URL}\" in \"\"|https://*) ;; *) placeholder=\"${placeholder} WP_PRIVACY_POLICY_URL(must start with https://)\" ;; esac\ncase \"${WP_TERMS_URL}\" in \"\"|https://*) ;; *) placeholder=\"${placeholder} WP_TERMS_URL(must start with https://)\" ;; esac\nif [ -z \"${missing}\" ] && [ -z \"${placeholder}\" ]; then\n  echo \"Release configuration check passed.\"\n  exit 0\nfi\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n  [ -n \"${missing}\" ] && echo \"error: Release configuration check failed. Set in Config/Shared.xcconfig:${missing}\"\n  [ -n \"${placeholder}\" ] && echo \"error: Release configuration check failed. Placeholder or invalid values:${placeholder}\"\n  exit 1\nfi\n[ -n \"${missing}\" ] && echo \"warning: Not configured yet (required for Release):${missing}\"\n[ -n \"${placeholder}\" ] && echo \"warning: Placeholder or invalid values (blocked in Release):${placeholder}\"\nexit 0\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6272BD3077093F00B5AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272E63077100000B5AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6272FD3077100000B5AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6272E93077100000B5AFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6272C03077093F00B5AFE0 /* TimestampCameraWorkPhotos */;
+			targetProxy = 8F6272E83077100000B5AFE0 /* PBXContainerItemProxy */;
+		};
+		8F6273013077100000B5AFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6272C03077093F00B5AFE0 /* TimestampCameraWorkPhotos */;
+			targetProxy = 8F6273003077100000B5AFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F6272CB3077094200B5AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F6272CC3077094200B5AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8F6272CE3077094200B5AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6272F13077100000B5AFE0 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimestampCameraWorkPhotos/TimestampCameraWorkPhotos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stamvio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of your work to add to projects and photo reports.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Add your current location to a work photo when you enable location stamps.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the stamped photos you choose to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F6272CF3077094200B5AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6272F23077100000B5AFE0 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimestampCameraWorkPhotos/TimestampCameraWorkPhotos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Stamvio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of your work to add to projects and photo reports.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Add your current location to a work photo when you enable location stamps.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the stamped photos you choose to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6272EC3077100000B5AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera.TimestampCameraWorkPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimestampCameraWorkPhotos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimestampCameraWorkPhotos";
+			};
+			name = Debug;
+		};
+		8F6272ED3077100000B5AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera.TimestampCameraWorkPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimestampCameraWorkPhotos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimestampCameraWorkPhotos";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6273023077100000B5AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera.TimestampCameraWorkPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TimestampCameraWorkPhotos;
+			};
+			name = Debug;
+		};
+		8F6273033077100000B5AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4YZ93BS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamvio.work.photos.camera.TimestampCameraWorkPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TimestampCameraWorkPhotos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6272BC3077093F00B5AFE0 /* Build configuration list for PBXProject "TimestampCameraWorkPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6272CB3077094200B5AFE0 /* Debug */,
+				8F6272CC3077094200B5AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6272CD3077094200B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6272CE3077094200B5AFE0 /* Debug */,
+				8F6272CF3077094200B5AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6272EB3077100000B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6272EC3077100000B5AFE0 /* Debug */,
+				8F6272ED3077100000B5AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6273043077100000B5AFE0 /* Build configuration list for PBXNativeTarget "TimestampCameraWorkPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6273023077100000B5AFE0 /* Debug */,
+				8F6273033077100000B5AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F6272DF3077100000B5AFE0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F6272E03077100000B5AFE0 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F6272DF3077100000B5AFE0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8F6272B93077093F00B5AFE0 /* Project object */;
+}

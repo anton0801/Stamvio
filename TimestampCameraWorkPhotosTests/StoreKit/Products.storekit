@@ -1,0 +1,148 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7C1E4A20",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21A4C9E0",
+      "localizations" : [
+
+      ],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6A3D1001",
+          "introductoryOffer" : {
+            "internalID" : "6A3D2001",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Projects, before/after reports, branding",
+              "displayName" : "Pro Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Proyectos, informes antes/después, marca",
+              "displayName" : "Pro mensual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Проекты, отчёты «до/после», брендинг",
+              "displayName" : "Pro на месяц",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Projekte, Vorher/Nachher-Berichte, Branding",
+              "displayName" : "Pro monatlich",
+              "locale" : "de"
+            },
+            {
+              "description" : "Projets, rapports avant/après, logo",
+              "displayName" : "Pro mensuel",
+              "locale" : "fr"
+            }
+          ],
+          "productID" : "workphotos.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "21A4C9E0",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6A3D1002",
+          "introductoryOffer" : {
+            "internalID" : "6A3D2002",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Projects, before/after reports, branding",
+              "displayName" : "Pro Yearly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Proyectos, informes antes/después, marca",
+              "displayName" : "Pro anual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Проекты, отчёты «до/после», брендинг",
+              "displayName" : "Pro на год",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Projekte, Vorher/Nachher-Berichte, Branding",
+              "displayName" : "Pro jährlich",
+              "locale" : "de"
+            },
+            {
+              "description" : "Projets, rapports avant/après, logo",
+              "displayName" : "Pro annuel",
+              "locale" : "fr"
+            }
+          ],
+          "productID" : "workphotos.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro Yearly",
+          "subscriptionGroupID" : "21A4C9E0",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

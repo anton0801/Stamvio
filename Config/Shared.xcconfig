@@ -1,0 +1,25 @@
+// Shared.xcconfig
+// Product contacts and documents read by EnvironmentConfig (via Config/Info.plist).
+//
+// IMPORTANT: in .xcconfig files "//" starts a comment. Write URLs as
+//   https:/$()/your-domain.tld/privacy
+// The Release build fails ("Release configuration check" build phase) until
+// WP_SUPPORT_EMAIL, WP_PRIVACY_POLICY_URL and WP_TERMS_URL are filled with real
+// values. Do not use example.com or other placeholders.
+
+// Support email shown in Settings → Support (e.g. support@your-domain.tld).
+WP_SUPPORT_EMAIL = reginadanilova82@icloud.com
+
+// Public privacy policy page (https).
+WP_PRIVACY_POLICY_URL =
+
+// Terms of use page (https). For auto-renewable subscriptions this may be your
+// own terms page or Apple's standard EULA; the owner decides.
+WP_TERMS_URL =
+
+// Optional external support form (https). Leave empty to hide the form option.
+WP_SUPPORT_FORM_URL =
+
+// Optional numeric App Store ID of this product. Kept in EnvironmentConfig as the spec
+// requires; v1 does not show it anywhere yet.
+WP_APP_STORE_ID =

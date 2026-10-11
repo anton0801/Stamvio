@@ -1,0 +1,5 @@
+// Production.xcconfig — Release configuration (TestFlight / App Store).
+// No StoreKit configuration file, no fake entitlements, no demo data.
+#include "Shared.xcconfig"
+
+WP_APP_ENVIRONMENT = production
