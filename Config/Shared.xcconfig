@@ -11,11 +11,11 @@
 WP_SUPPORT_EMAIL = reginadanilova82@icloud.com
 
 // Public privacy policy page (https).
-WP_PRIVACY_POLICY_URL =
+WP_PRIVACY_POLICY_URL = https:/$()/stamvio.site/privacy.html
 
 // Terms of use page (https). For auto-renewable subscriptions this may be your
 // own terms page or Apple's standard EULA; the owner decides.
-WP_TERMS_URL =
+WP_TERMS_URL = https:/$()/stamvio.site/terms.html
 
 // Optional external support form (https). Leave empty to hide the form option.
 WP_SUPPORT_FORM_URL =

@@ -17,7 +17,9 @@
 ## 2. Конфигурация сборки
 
 - [x] `Config/Shared.xcconfig`: `WP_SUPPORT_EMAIL` = reginadanilova82@icloud.com
-- [ ] `Config/Shared.xcconfig`: заполнены `WP_PRIVACY_POLICY_URL`, `WP_TERMS_URL` (адреса `privacy.html` и `terms.html` после публикации сайта)
+- [x] `Config/Shared.xcconfig`: `WP_PRIVACY_POLICY_URL` = https://stamvio.site/privacy.html, `WP_TERMS_URL` = https://stamvio.site/terms.html
+- [ ] **владелец** SSL-сертификат для stamvio.site и www.stamvio.site (сейчас хостинг отдаёт общий `*.web-hosting.com`,
+      по https сайт не открывается) и перенаправление http → https. Проверить до отправки на ревью.
       (URL пишется как `https:/$()/domain.tld/path`); опционально `WP_SUPPORT_FORM_URL`, `WP_APP_STORE_ID`.
 - [ ] Release-сборка проходит фазу «Release configuration check» (без заполненных контактов сборка падает —
       проверено; заглушки вида example.com и URL не по https отвергает тот же скрипт, а приложение — `EnvironmentConfig`,
